@@ -1,1 +1,11 @@
-<app-livros [livro]="livro"></app-livros>
+<section class="generos">
+    <h3 class="texto-h3-prata">
+        {{genero().value}}
+    </h3>
+    <span class="linha-destaque linha-destaque--pequeno"></span>
+    <div class="livros-genero">
+        @for (livro of genero().livros; track livro) {
+            <app-livros [livro]="livro"></app-livros>   
+        }
+    </div>
+</section>

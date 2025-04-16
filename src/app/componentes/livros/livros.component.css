@@ -64,7 +64,7 @@ section {
     max-width: 90%;
   }
   
-  .texto-h3 {
+  .livro-autoria {
     font-family: var(--font-montserrat);
     font-size: 16px;
     font-weight: var(--font-weight-normal);

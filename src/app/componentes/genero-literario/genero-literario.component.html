@@ -3,6 +3,13 @@
         {{genero().value}}
     </h3>
     <span class="linha-destaque linha-destaque--pequeno"></span>
+
+    @if(genero().livros.length === 0){
+        <div class="texto-sem-livros">
+            <img src="sem-livros.png" alt="sem livros neste genero">
+            <p>não há livros neste genero ainda</p>
+        </div>
+    }
     <div class="livros-genero">
         @for (livro of genero().livros; track livro) {
             <app-livros [livro]="livro"></app-livros>   

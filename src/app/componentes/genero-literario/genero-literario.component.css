@@ -43,26 +43,26 @@
   }
   
   .misterio {
-    background-color: #E9FFE3;
+    background-color: #cdd6cb;
   }
   
   .generos .misterio {
-    border-bottom: 4px solid #A6D157;
+    border-bottom: 4px solid #62665d;
   }
   
-  .fantasia {
-    background-color: #FFE3E3;
+  .aventura {
+    background-color: #e94343;
   }
   
-  .generos .fantasia {
-    border-bottom: 4px solid #E06B69;
+  .generos .aventura {
+    border-bottom: 4px solid #d34b48;
   }
   
-  .ficcao-cientifica {
+  .magia {
     background-color: #FFF0FA;
   }
   
-  .generos .ficcao-cientifica {
+  .generos .magia {
     border-bottom: 4px solid #DB6EBF;
   }
   
